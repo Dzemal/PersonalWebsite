@@ -100,9 +100,22 @@ img{
 
 .box{
 	/*border:3px solid #033C40;*/
-	height:400px;
-	width:75%;
+	height:550px;
+	width:55%;
 	margin: 0 auto;
-	margin-top:30px;
+	margin-top:50px;
 	border-radius:5px;
+	color:white;
+}
+
+.box img{
+	width:300px;
+	height:200px;
+	float:left;
+	padding-right:10px;
+}
+
+p{
+	line-height:30px;
+	text-indent:30px;
 }
