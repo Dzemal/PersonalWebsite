@@ -72,7 +72,6 @@ ul{
 img{
 	height:30px;
 	width:30px;
-	padding-top:px;
 	padding-left:7px;
 }
 
@@ -81,7 +80,7 @@ img{
 	color:white;
 }
 
-.work a, .news a, .bio a{
+.work a, .news a, .bio a, .contact a{
 	text-decoration:none;
 	color:white;
 }
@@ -92,6 +91,10 @@ img{
 
 .bio a:hover{
 	color:green;
+}
+
+.contact a:hover{
+	color:#0273FF;
 }
 
 .news a:hover{
@@ -115,7 +118,42 @@ img{
 	padding-right:10px;
 }
 
-p{
+.box p{
 	line-height:30px;
 	text-indent:30px;
+}
+
+.contactInfo{
+	width:75%;
+	/*border:1px solid black;*/
+	margin:0 auto;
+	height:400px;
+	margin-top:50px;
+}
+
+.contactInfo p{
+	text-align:center;
+	padding-top:50px;
+	line-height:40px;
+	font-family:fantasy;
+	font-size:20px;
+	color:white;
+}
+
+.iconsBox{
+	/*border:1px solid black;*/
+	width:100%;
+	height:200px;
+
+}
+
+.iconsBox img{
+	height:40px;
+	width:40px;
+	display:inline;
+}
+
+.images{
+	text-align:center;
+	vertical-align:middle;
 }
